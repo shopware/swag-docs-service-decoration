@@ -1,6 +1,6 @@
 {
-    "name": "swag/custom-service",
-    "description": "Plugin with an example service",
+    "name": "swag/service-decoration",
+    "description": "Plugin with a decorated service",
     "version": "v1.0.0",
     "type": "shopware-plugin",
     "license": "MIT",
@@ -13,14 +13,14 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "CustomService",
+        "installer-name": "ServiceDecoration",
         "label": {
-            "de_DE": "Plugin mit einem Beispiel Service",
-            "en_GB": "Plugin with an example service"
+            "de_DE": "Plugin mit einem dekorierten Service",
+            "en_GB": "Plugin with a decorated service"
         },
         "description": {
-            "de_DE": "Plugin mit einem Beispiel Service",
-            "en_GB": "Plugin with an example service"
+            "de_DE": "Plugin mit einem dekorierten Service",
+            "en_GB": "Plugin with a decorated service"
         }
     }
 }
