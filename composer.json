@@ -2,7 +2,7 @@
     "name": "swag/service-decoration",
     "description": "Plugin with a decorated service",
     "version": "v1.0.0",
-    "type": "shopware-plugin",
+    "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "ServiceDecoration",
+        "shopware-plugin-class": "Swag\\ServiceDecoration\\ServiceDecoration",
         "label": {
             "de_DE": "Plugin mit einem dekorierten Service",
             "en_GB": "Plugin with a decorated service"
@@ -21,6 +21,11 @@
         "description": {
             "de_DE": "Plugin mit einem dekorierten Service",
             "en_GB": "Plugin with a decorated service"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\ServiceDecoration\\": "src/"
         }
     }
 }

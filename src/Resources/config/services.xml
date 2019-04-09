@@ -5,10 +5,10 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="ServiceDecoration\Service\MyService" />
+        <service id="Swag\ServiceDecoration\Service\MyService" />
 
-        <service id="ServiceDecoration\Service\DecoratedService" decorates="ServiceDecoration\Service\MyService">
-            <argument type="service" id="ServiceDecoration\Service\MyService.inner" />
+        <service id="Swag\ServiceDecoration\Service\DecoratedService" decorates="Swag\ServiceDecoration\Service\MyService">
+            <argument type="service" id="Swag\ServiceDecoration\Service\MyService.inner" />
         </service>
     </services>
 </container>

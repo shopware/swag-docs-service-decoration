@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ServiceDecoration\Service;
+namespace Swag\ServiceDecoration\Service;
 
 class DecoratedService
 {
