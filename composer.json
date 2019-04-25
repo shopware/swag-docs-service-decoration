@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\ServiceDecoration\\ServiceDecoration",
         "label": {
-            "de_DE": "Plugin mit einem dekorierten Service",
-            "en_GB": "Plugin with a decorated service"
+            "de-DE": "Plugin mit einem dekorierten Service",
+            "en-GB": "Plugin with a decorated service"
         },
         "description": {
-            "de_DE": "Plugin mit einem dekorierten Service",
-            "en_GB": "Plugin with a decorated service"
+            "de-DE": "Plugin mit einem dekorierten Service",
+            "en-GB": "Plugin with a decorated service"
         }
     },
     "autoload": {
