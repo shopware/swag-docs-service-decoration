@@ -2,9 +2,10 @@
 
 namespace Swag\ServiceDecoration\Service;
 
-class MyService
+class MyService implements MyServiceInterface
 {
-    public function doSomething(): void
+    public function doSomething(): string
     {
+        return 'Did something.';
     }
 }

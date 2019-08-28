@@ -7,8 +7,8 @@
     <services>
         <service id="Swag\ServiceDecoration\Service\MyService" />
 
-        <service id="Swag\ServiceDecoration\Service\DecoratedService" decorates="Swag\ServiceDecoration\Service\MyService">
-            <argument type="service" id="Swag\ServiceDecoration\Service\MyService.inner" />
+        <service id="Swag\ServiceDecoration\Service\ServiceDecorator" decorates="Swag\ServiceDecoration\Service\MyService">
+            <argument type="service" id="Swag\ServiceDecoration\Service\ServiceDecorator.inner" />
         </service>
     </services>
 </container>
